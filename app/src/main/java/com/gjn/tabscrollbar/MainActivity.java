@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
             barTab.setBundle(bundle);
             list.add(barTab);
         }
-        tabLayout.setSelectedTabIndicatorColor(ContextCompat.getColor(this,R.color.colorAccent));
+        tabLayout.setSelectedTabIndicatorColor(ContextCompat.getColor(this,R.color.colorPrimary));
         TabScrollBar bar = new TabScrollBar(this, viewPager, tabLayout, list);
-        bar.create();
+        bar.IsAdaptationTextWidth(true).create();
     }
 }
