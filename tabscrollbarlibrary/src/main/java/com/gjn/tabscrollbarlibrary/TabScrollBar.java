@@ -61,6 +61,7 @@ public class TabScrollBar {
         //设置bundle
         for (BarTab barTab : barItems) {
             if (barTab.getBundle() != null) {
+                Log.d(TAG, barTab.getTitle() +"设置Bundle成功");
                 barTab.getFragment().setArguments(barTab.getBundle());
             }
         }
