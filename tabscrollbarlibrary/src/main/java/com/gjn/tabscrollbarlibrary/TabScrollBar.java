@@ -60,7 +60,9 @@ public class TabScrollBar {
         }
         //设置bundle
         for (BarTab barTab : barItems) {
-            barTab.getFragment().setArguments(barTab.getBundle());
+            if (barTab.getBundle() != null) {
+                barTab.getFragment().setArguments(barTab.getBundle());
+            }
         }
 
         viewPager.setAdapter(new ScrollBarAdapter(fragmentManager));

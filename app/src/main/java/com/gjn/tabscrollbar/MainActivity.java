@@ -31,9 +31,11 @@ public class MainActivity extends AppCompatActivity {
             barTab = new TabScrollBar.BarTab();
             barTab.setTitle("标题"+i);
             barTab.setFragment(new TestFm());
-            bundle = new Bundle();
-            bundle.putString("title","标题"+i);
-            barTab.setBundle(bundle);
+            if (i != 2) {
+                bundle = new Bundle();
+                bundle.putString("title","标题"+i);
+                barTab.setBundle(bundle);
+            }
             list.add(barTab);
         }
         tabLayout.setSelectedTabIndicatorColor(ContextCompat.getColor(this,R.color.colorPrimary));

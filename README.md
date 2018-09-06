@@ -9,7 +9,7 @@ allprojects {
 }
 
 dependencies {
-    implementation 'com.github.Gaojianan2016:TabScrollBar:1.0.0'
+    implementation 'com.github.Gaojianan2016:TabScrollBar:1.0.1'
 }
 ```
 
