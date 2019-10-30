@@ -3,11 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TabScrollBar.iml" filepath="$PROJECT_DIR$/TabScrollBar.iml" />
-      <module fileurl="file://D:\GitHub\TabScrollBar\TabScrollBar.iml" filepath="D:\GitHub\TabScrollBar\TabScrollBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://D:\GitHub\TabScrollBar\app\app.iml" filepath="D:\GitHub\TabScrollBar\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/tabscrollbarlibrary/tabscrollbarlibrary.iml" filepath="$PROJECT_DIR$/tabscrollbarlibrary/tabscrollbarlibrary.iml" />
-      <module fileurl="file://D:\GitHub\TabScrollBar\tabscrollbarlibrary\tabscrollbarlibrary.iml" filepath="D:\GitHub\TabScrollBar\tabscrollbarlibrary\tabscrollbarlibrary.iml" />
     </modules>
   </component>
 </project>
